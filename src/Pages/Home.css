@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5a0c0c;
+  color: #901b1b;
+}
+
+/* Container Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.home-header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Main Content Section */
+.home-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.home-actions {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-actions h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.home-link-button {
+  text-decoration: none;
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-link-button:hover {
+  background-color: #357ab8;
+}
+
+.home-info {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+/* Footer Section */
+.home-footer {
+  text-align: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+/* Image Styling */
+.home-image {
+    width: 150px; /* Adjust size as needed */
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
